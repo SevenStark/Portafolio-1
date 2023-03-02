@@ -43,6 +43,51 @@ nav{
    float: right;
    
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #2d2d86;
+}
+footer img{
+    height: 40px;
+    width: 50px;
+}
+.f{
+    height: 60%;     
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.f1::after,.f1::before{
+    margin-top: 20px;
+    content:'';
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: black;    
+}
+.f1::before{
+    left: 330px;
+
+}
+.f1::after{
+    right: 330px;
+}
+section .f2 img{
+    height: 20px;
+    width: 25px;
+
+}
+.f2{
+    margin-top: 10px;
+    justify-content: center;
+    display:flex;
+}
 
 
 
